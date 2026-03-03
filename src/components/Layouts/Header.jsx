@@ -3,6 +3,7 @@ import Flex from '../Common/Flex'
 import Button from '../Common/Button'
 import { GoChevronDown } from "react-icons/go";
 import { Link } from 'react-router-dom';
+import Logo from './assets/Logo.svg';
 
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
       <Container >
         <Flex className={`justify-between py-2.5`}>
           <div>
-            <Link to ={"/"}><img className='' src="/src/assets/Logo.svg" alt="Logo.svg" /></Link>
+            <Link to="/"><img src={Logo} alt="Logo" /></Link>
           </div>
           <div className="flex items-center gap-10">
             <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"/"}>Home</Link><GoChevronDown /></div>
