@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-main: #D6A033;
+    --font-playfair: "Playfair Display", serif;
+}

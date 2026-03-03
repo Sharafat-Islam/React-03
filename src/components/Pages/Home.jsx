@@ -1,0 +1,11 @@
+import Banner from "../Layouts/Banner"
+
+const Home = () => {
+  return (
+    <>
+    <Banner/>
+    </>
+  )
+}
+
+export default Home

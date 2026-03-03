@@ -1,38 +1,41 @@
 import './App.css'
-import Container from './components/Container'
-import Flex from './components/Flex'
-import { CgTerminal } from "react-icons/cg";
-import { CgChevronUpO } from "react-icons/cg";
-import { CgChevronDownO } from "react-icons/cg";
-import { CgChevronUpR } from "react-icons/cg";
-import { CgChevronDownR } from "react-icons/cg";
-
+import RootLayouts from './components/Layouts/RootLayouts'
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Pages/Home'
+import About from './components/Pages/About'
+import Contact from './components/Pages/Contact'
+import Error from './components/Pages/Error'
 
 function App() {
   return (
     <>
-      <div className="bg-[#121212]">
-        <Container>
-          <Flex className={`justify-center gap-80 pt-10`}>
-            <div className="bg-pink-400 border-2 border-pink-200 shadow-lg shadow-pink-200 h-30 w-60 flex">
-              <div className="bg-pink-300 border border-pink-200 shadow-lg shadow-pink-200 h-5 w-8"></div>
-              <CgTerminal className={`text-pink-100 text-9xl pl-9`} />
-            </div>
-            <div className="bg-pink-400 border-2 border-pink-200 shadow-lg shadow-pink-200 h-30 w-60 flex">
-              <div className="bg-pink-300 border border-pink-200 shadow-lg shadow-pink-200 h-5 w-8"></div>
-              <CgTerminal className={`text-pink-100 text-9xl pl-9`} />
-            </div>
-          </Flex>
-          <div className="bg-pink-400 border-2 border-pink-200 h-30 w-200 mt-60 mx-66 flex justify-between items-center text-6xl px-3 text-pink-100">
-            <CgChevronUpO />
-            <CgChevronDownO />
-            <CgChevronUpR />
-            <CgChevronDownR />
-          </div>
-        </Container>
+      <div className="bg-[#000000]">
+        <Routes>
+          <Route path="/" element={<RootLayouts />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
+          </Route>
+        </Routes>
       </div>
     </>
-  )
+
+  );
 }
+
+{/* <div className="bg-[#121212]">
+        <Container>
+          <Flex>
+            <div className="flex text-[120px] ml-10 text-[#BBDCE5] uppercase tracking-[5px] mt-27 leading-none font-bold ">
+              <p className='hover:blur-[5px] hover:text-blue-400 duration-300'>R</p>
+              <p className='hover:blur-[5px] hover:text-blue-400 duration-300'>E</p>
+              <p className='hover:blur-[5px] hover:text-blue-400 duration-300'>A</p>
+              <p className='hover:blur-[5px] hover:text-blue-400 duration-300'>C</p>
+              <p className='hover:blur-[5px] hover:text-blue-400 duration-300'>T</p>
+            </div>
+          </Flex>
+        </Container>
+      </div> */}
 
 export default App
