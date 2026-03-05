@@ -33,10 +33,10 @@ const Home = () => {
             <Button className={`rounded-r-xl py-2.75 hover:border-main duration-300 hover:bg-main`} btntext={"Analyze Website"} />
           </div>
           <div className="flex justify-around items-center pb-25 pt-115">
-            <img src="/src/assets/home1.png" alt="home1.png" />
-            <img src="/src/assets/home2.png" alt="home2.png" />
-            <img src="/src/assets/home3.png" alt="home3.png" />
-            <img src="/src/assets/home4.png" alt="home4.png" />
+            <img src="/home1.png" alt="home1.png" />
+            <img src="/home2.png" alt="home2.png" />
+            <img src="/home3.png" alt="home3.png" />
+            <img src="/home4.png" alt="home4.png" />
           </div>
         </div>
       </Banner>
@@ -52,12 +52,12 @@ const Home = () => {
               <p className="font-nunito font-normal text-[18px] text-textsmtw pl-15">With over 25 years of experience, we have crafted thousands of strategic</p>
               <p className="font-nunito font-normal text-[18px] text-textsmtw pl-15">discovery process that enables us to peel back the layers which enable us to</p>
               <p className="font-nunito font-normal text-[18px] text-textsmtw pl-15">understand.</p>
-              <img className="pt-20 pb-35" src="/src/assets/Frame1.png" alt="Frame1.png" />
+              <img className="pt-20 pb-35" src="/Frame1.png" alt="Frame1.png" />
             </div>
             <div className="pl-8">
               <div className="pt-9">
                 <div className="flex justify-center items-center bg-[#F0EDFF] rounded-2xl hover:scale-102 duration-300">
-                  <img className="py-9 pl-9" src="/src/assets/Groupc1.png" alt="Groupc1.png" />
+                  <img className="py-9 pl-9" src="/Groupc1.png" alt="Groupc1.png" />
                   <div className="pl-10 pr-15">
                     <h3 className="font-poppins font-semibold text-textsmtw text-[28px]">SEO Consultancy</h3>
                     <p className="font-nunito font-normal text-[18px] text-textsmtw pt-3">Nam libero tempore, cum soluta nobis est</p>
@@ -67,7 +67,7 @@ const Home = () => {
               </div>
               <div className="pt-9">
                 <div className="flex justify-center items-center bg-[#FEF6EC] rounded-2xl hover:scale-102 duration-300">
-                  <img className="py-9 pl-9" src="/src/assets/Groupc2.png" alt="Groupc2.png" />
+                  <img className="py-9 pl-9" src="/Groupc2.png" alt="Groupc2.png" />
                   <div className="pl-10 pr-15">
                     <h3 className="font-poppins font-semibold text-textsmtw text-[28px]">Competitor Analysis</h3>
                     <p className="font-nunito font-normal text-[18px] text-textsmtw pt-3">Nam libero tempore, cum soluta nobis est eligendi optio</p>
@@ -77,7 +77,7 @@ const Home = () => {
               </div>
               <div className="pt-9">
                 <div className="flex justify-center items-center bg-[#E8FCF2] rounded-2xl hover:scale-102 duration-300">
-                  <img className="py-9 pl-9" src="/src/assets/Groupc3.png" alt="Groupc3.png" />
+                  <img className="py-9 pl-9" src="/Groupc3.png" alt="Groupc3.png" />
                   <div className="pl-10 pr-15">
                     <h3 className="font-poppins font-semibold text-textsmtw text-[28px]">Social Media Marketing</h3>
                     <p className="font-nunito font-normal text-[18px] text-textsmtw pt-3">Nam libero tempore, cum soluta nobis est</p>
@@ -95,12 +95,12 @@ const Home = () => {
               <p className="font-nunito font-normal text-[18px] pt-1 text-textsmtw">which enable us to understand.With over 25 years of experience, we</p>
               <p className="font-nunito font-normal text-[18px] pt-1 text-textsmtw">have crafted thousands of strategic discovery process</p>
               <div className="flex pb-15 pt-10 items-center">
-                <img className="px-7.5" src="/src/assets/percentage1.png" alt="percentage1.png" />
-                <img className="px-7.5" src="/src/assets/percentage2.png" alt="percentage2.png" />
-                <img className="px-7.5" src="/src/assets/percentage3.png" alt="percentage3.png" />
+                <img className="px-7.5" src="/percentage1.png" alt="percentage1.png" />
+                <img className="px-7.5" src="/percentage2.png" alt="percentage2.png" />
+                <img className="px-7.5" src="/percentage3.png" alt="percentage3.png" />
               </div>
             </div>
-            <img src="/src/assets/Frame2.png" alt="Frame2.png" />
+            <img src="/Frame2.png" alt="Frame2.png" />
           </Flex>
         </Container>
       </Banner>
@@ -112,25 +112,25 @@ const Home = () => {
           </div>
           <div className="flex justify-center items-center gap-6 py-10">
             <div className="bg-[#b4f2fa] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/src/assets/icon1.png" alt="icon" className="mb-4" />
+              <img src="/icon1.png" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Real time analytics</p>
             </div>
             <div className="bg-[#F0EDFF] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/src/assets/icon2png.png" alt="icon" className="mb-4" />
+              <img src="/icon2png.png" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Social media strategy</p>
             </div>
             <div className="bg-[#E8FCF2] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/src/assets/icon3png.png" alt="icon" className="mb-4" />
+              <img src="/icon3png.png" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Media management</p>
             </div>
             <div className="bg-[#eab183] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/src/assets/icon1.png" alt="icon" className="mb-4" />
+              <img src="/icon1.png" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Reporting & analysis</p>
             </div>
           </div>
           <div className="flex pt-10 items-center">
             <div className="">
-              <img src="/src/assets/Frame3.png" alt="Frame3.png" />
+              <img src="/Frame3.png" alt="Frame3.png" />
             </div>
             <div className="pl-35">
               <h3 className="font-poppins font-semibold text-4xl text-textsmtw">Real time analytics</h3>
@@ -251,7 +251,6 @@ const Home = () => {
       </Banner>
       <Container>
         <Banner className={`bg-[url('/src/assets/bnr2.png')]`}>
-
         </Banner>
       </Container>
     </>
