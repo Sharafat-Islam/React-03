@@ -10,7 +10,7 @@ const Header = () => {
     <Container>
         <Flex className={`justify-between py-2.5`}>
           <div>
-            <Link to="/"><img src="/src/assets/Logo.png" alt="Logo.png" /></Link>
+            <Link to="/"><img src="/public/Logo.png" alt="Logo.png" /></Link>
           </div>
           <div className="flex items-center gap-10">
             <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"/"}>Home</Link><GoChevronDown /></div>
