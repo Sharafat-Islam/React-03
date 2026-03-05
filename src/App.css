@@ -2,6 +2,10 @@
 
 
 @theme {
-    --color-main: #D6A033;
-    --font-playfair: "Playfair Display", serif;
+    --color-main: #6A55EA;
+    --color-textsm: #C4C4C4;
+    --color-textsmtw: #29313D;
+    --font-nunito: "Nunito", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-openSans: "Open Sans", sans-serif;
 }
