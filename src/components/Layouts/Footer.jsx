@@ -1,6 +1,7 @@
 import Banner from "../Common/Banner"
 import Container from "../Common/Container"
 import Flex from "../Common/Flex"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,8 +16,8 @@ const Footer = () => {
           </div>
           <div className="">
             <h3 className="font-openSans font-semibold text-2xl text-textsmtw">Features</h3>
-            <p className="font-nunito font-semibold text-[20px] text-textsmtw pb-3.75 pt-12">Home</p>
-            <p className="font-nunito font-semibold text-[20px] text-textsmtw py-3.75">About</p>
+            <div className="font-nunito font-semibold text-[20px] text-textsmtw pb-3.75 pt-12"><Link to={"/"}>Home</Link></div>
+            <div className="font-nunito font-semibold text-[20px] text-textsmtw py-3.75"><Link to={"about"}>About</Link></div>
             <p className="font-nunito font-semibold text-[20px] text-textsmtw py-3.75">Benifit</p>
             <p className="font-nunito font-semibold text-[20px] text-textsmtw py-3.75">Pricing</p>
             <p className="font-nunito font-semibold text-[20px] text-textsmtw pt-3.75">Blog</p>
