@@ -30,6 +30,5 @@ function App() {
   );
 }
 
-// bg-[url(/src/assets/homebnr.png)] bg-no-repeat bg-center bg-cover
 
 export default App

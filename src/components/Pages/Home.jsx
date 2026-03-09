@@ -112,19 +112,19 @@ const Home = () => {
           </div>
           <div className="flex justify-center items-center gap-6 py-10">
             <div className="bg-[#b4f2fa] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/icon1.png" alt="icon" className="mb-4" />
+              <img src="/Icon1.svg" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Real time analytics</p>
             </div>
             <div className="bg-[#F0EDFF] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/icon2png.png" alt="icon" className="mb-4" />
+              <img src="/Icon2.svg" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Social media strategy</p>
             </div>
             <div className="bg-[#E8FCF2] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/icon3png.png" alt="icon" className="mb-4" />
+              <img src="/Icon3.svg" alt="icon" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Media management</p>
             </div>
             <div className="bg-[#eab183] hover:scale-103 duration-300 rounded-2xl p-8 w-1/4">
-              <img src="/icon1.png" alt="icon" className="mb-4" />
+              <img src="/Icon1.svg" alt="" className="mb-4" />
               <p className="font-poppins text-xl font-semibold">Reporting & analysis</p>
             </div>
           </div>
