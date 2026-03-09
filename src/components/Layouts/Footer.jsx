@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Flex className={`justify-between items-start pt-35`}>
           <div className="">
-            <img className="" src="/src/assets/Logop.png" alt="Logop.png" />
+            <img className="" src="/Logop.png" alt="Logop.png" />
             <p className="pt-11 font-normal font-nunito text-[18px] text-textsmtw">Install any demo or template with a single click. You</p>
             <p className="font-normal font-nunito text-[18px] text-textsmtw">can mix and match all the demos & templates. Every</p>
             <p className="font-normal font-nunito text-[18px] text-textsmtw">demo can be turned into one or multi-page.</p>

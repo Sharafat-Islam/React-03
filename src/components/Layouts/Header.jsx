@@ -10,18 +10,18 @@ const Header = () => {
     <Container>
         <Flex className={`justify-between py-2.5`}>
           <div>
-            <Link to="/"><img src="/Logo.png" alt="Logo.png" /></Link>
+            <Link to="/"><img src="/Logop.png" alt="Logo.png" /></Link>
           </div>
           <div className="flex items-center gap-10">
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"/"}>Home</Link><GoChevronDown /></div>
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"about"}>About</Link><GoChevronDown /></div>
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"service"}>Service</Link><GoChevronDown /></div>
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"portfolio"}>Portfolio</Link><GoChevronDown /></div>
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"price"}>Price</Link><GoChevronDown /></div>
-            <div className="flex items-center font-semibold text-white text-[16px] pr-1 hover:text-main duration-200"><Link to={"blog"}>Blog</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"/"}>Home</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"about"}>About</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"service"}>Service</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"portfolio"}>Portfolio</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"price"}>Price</Link><GoChevronDown /></div>
+            <div className="flex items-center font-semibold text-main text-[16px] pr-1 hover:text-white duration-200"><Link to={"blog"}>Blog</Link><GoChevronDown /></div>
           </div>
           <div>
-            <Button className={'font-semibold rounded-2xl py-3.5 hover:border-main  hover:bg-main duration-200'} btntext={'Contact'} />
+            <Button className={'font-semibold rounded-2xl py-3.5 hover:border-main hover:bg-main duration-200'} btntext={'Contact'} />
           </div>
         </Flex>
       </Container>

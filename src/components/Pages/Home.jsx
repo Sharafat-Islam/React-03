@@ -7,7 +7,7 @@ import { GoCheckCircleFill, GoXCircleFill } from "react-icons/go"
 const Home = () => {
   return (
     <>
-      <Banner className={`bg-[url('/src/assets/homebnr.png')]`}>
+      <Banner className={`bg-[url('/src/assets/homebnr.png')] w-full`}>
         <div className="text-center pt-48">
           <div className="flex justify-center items-center gap-2.5">
             <div className="border border-textsm rounded-2xl py-2.5 px-3.75">
@@ -192,7 +192,6 @@ const Home = () => {
             <h2 className="text-4xl font-bold text-slate-800">Premium Optimization Plans</h2>
           </div>
           <div className="bg-white overflow-hidden border border-slate-200">
-
             <div className="flex h-1.5 w-full">
               <div className="flex-1 bg-blue-100"></div>
               <div className="flex-1 bg-[#333333]"></div>
@@ -200,7 +199,7 @@ const Home = () => {
               <div className="flex-1 bg-[#8b5cf6]"></div>
             </div>
             <div className="flex border-b border-slate-200">
-              <div className="flex-1 p-8 flex items-center text-slate-500 text-sm italic">
+              <div className="flex-1 p-8 flex items-center text-slate-500 text-sm">
                 Save <span className="font-bold text-black px-1">Up To 40%</span> By Paying Annually!
               </div>
               <div className="flex-1 p-8 text-center border-l border-slate-200">
@@ -250,7 +249,16 @@ const Home = () => {
         </Container>
       </Banner>
       <Container>
-        <Banner className={`bg-[url('/src/assets/bnr2.png')]`}>
+        <Banner className={`bg-[url('/bnr2.png')] bg-cover mb-30 mt-60`}>
+          <div className="text-center">
+            <h3 className="font-poppins font-semibold text-6xl text-white pt-30.75">Get Your Free SEO Analytics</h3>
+            <p className="font-nunito font-medium text-[18px] text-textsm pt-2.5">Paste your website link to get the free 7 days analytics of your website</p>
+            <p className="font-nunito font-medium text-[18px] text-textsm mpb-7">for totaly free</p>
+            <div className="pt-12 pb-28">
+              <input className="outline-0 bg-white rounded-l-xl pr-55 py-4 pl-3" type="text" placeholder="Paste Your Website Links" />
+              <Button className={`rounded-r-xl py-3.75 hover:border-main duration-300 hover:bg-main`} btntext={"Analyze Website"} />
+            </div>
+          </div>
         </Banner>
       </Container>
     </>
